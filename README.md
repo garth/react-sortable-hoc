@@ -2,11 +2,7 @@
 
 > A set of higher-order components to turn any list into an animated, touch-friendly, sortable list.
 
-[![npm version](https://img.shields.io/npm/v/react-sortable-hoc.svg)](https://www.npmjs.com/package/react-sortable-hoc)
-[![npm downloads](https://img.shields.io/npm/dm/react-sortable-hoc.svg)](https://www.npmjs.com/package/react-sortable-hoc)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/clauderic/react-sortable-hoc/blob/master/LICENSE)
-[![Gitter](https://badges.gitter.im/clauderic/react-sortable-hoc.svg)](https://gitter.im/clauderic/react-sortable-hoc)
-![gzip size](http://img.badgesize.io/https://npmcdn.com/react-sortable-hoc/dist/umd/react-sortable-hoc.min.js?compression=gzip)
+This is a temporary copy of [react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc/) with added support for the [Fullscreen API](https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API). As soon as fullscreen support is added to the offical react-sortable-hoc this copy will be removed.
 
 ### Examples available here: <a href="#">http://clauderic.github.io/react-sortable-hoc/</a>
 
@@ -23,7 +19,7 @@
 
 Using [npm](https://www.npmjs.com/package/react-sortable-hoc):
 
-    $ npm install react-sortable-hoc --save
+    $ npm install react-sortable-hoc-fullscreen --save
 
 Then, using a module bundler that supports either CommonJS or ES2015 modules, such as [webpack](https://github.com/webpack/webpack):
 

@@ -354,7 +354,14 @@ export default function sortableContainer(
           }
         });
 
-        this.helper = this.helperContainer.appendChild(clonedNode);
+        this.helper = (
+          document.fullscreenElement ||
+          document.webkitFullscreenElement ||
+          document.mozFullScreenElement ||
+          document.msFullscreenElement ||
+          this.helperContainer
+        ).appendChild(clonedNode);
+        // this.helper = this.helperContainer.appendChild(clonedNode);
 
         this.helper.style.position = 'fixed';
         this.helper.style.top = `${this.boundingClientRect.top - margin.top}px`;
