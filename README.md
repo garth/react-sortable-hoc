@@ -132,11 +132,11 @@ Examples: `10` (which is the same as `"10px"`), `"50%"`
 
 ### Running Examples
 
-In root folder:
+In root folder, run the following commands to launch React Storybook:
 
 ```
-	$ npm install
-	$ npm run storybook
+$ npm install
+$ npm start
 ```
 
 ### Grid support
