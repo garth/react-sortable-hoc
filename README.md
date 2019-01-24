@@ -2,6 +2,26 @@
 
 > A set of higher-order components to turn any list into an animated, touch-friendly, sortable list.
 
+---
+
+Since version 1.5.2, react-sortable-hoc can support fullscreen apps using the following:
+
+```tsx
+<SortableList
+  helperContainer={() =>
+    document['fullscreenElement'] ||
+    document['webkitFullscreenElement'] ||
+    document['mozFullScreenElement'] ||
+    document['msFullscreenElement'] ||
+    document.body
+  }
+/>
+```
+
+As such, this fork of react-sortable-hoc is now deprecated, please use the original version.
+
+---
+
 This is a temporary copy of [react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc/) with added support for the [Fullscreen API](https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API). As soon as fullscreen support is added to the offical react-sortable-hoc this copy will be removed.
 
 ### Examples available here: <a href="#">http://clauderic.github.io/react-sortable-hoc/</a>
